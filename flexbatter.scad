@@ -417,7 +417,7 @@ module flexbatter(
             translate([j*lc+lc/2-0.5,-d/2-w-0.01,wz+d+df*l])
 	       rotate([-90,0,0])
 	          cylinder(r=df*l+adeepen*d,h=d+2*w+2*ws+2,$fn=72);
-	          if(i==0)cylinder(r1=df*l+adeepen*d+ch,r2=df*l+adeepen*d,h=ch+0.02,$fn=72);
+//	          if(i==0)cylinder(r1=df*l+adeepen*d+ch,r2=df*l+adeepen*d,h=ch+0.02,$fn=72);
 	          if(i==n-1)translate([0,0,d+2*w-ch])cylinder(r2=df*l+adeepen*d+ch,r1=df*l+adeepen*d,h=ch+0.02,$fn=72);
 
                }
